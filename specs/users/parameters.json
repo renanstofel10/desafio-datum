@@ -1,0 +1,12 @@
+{
+    "INSERT": {
+        "NAME": "RENAN",
+        "JOB": "QA"
+    },
+    "UPDATE": {
+        "NAME": "RENAN STOFEL",
+        "JOB": "QA MOBILE",
+        "NAME_PATCH": "RENAN MOURA STOFEL",
+        "JOB_PATCH": "QA MOBILE ENGINEER"
+    }
+}

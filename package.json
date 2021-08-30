@@ -1,0 +1,27 @@
+{
+  "name": "integration-tests",
+  "version": "1.0.0",
+  "description": "Integration test example using Express and SuperTest",
+  "main": "index.js",
+  "scripts": {
+    "test-integration": "node_modules/.bin/mocha specs/**/*.spec.js --reporter node_modules/mochawesome --reporter-options reportDir=./reports,reportFilename=index.html"
+  },
+  "author": "Renan Stofel",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "expect": "^24.8.0",
+    "express": "^4.17.1",
+    "Faker": "^0.7.2",
+    "joi": "^14.3.1",
+    "joi-assert": "0.0.3",
+    "mocha": "^8.2.1",
+    "mochawesome": "^4.1.0",
+    "path": "^0.12.7",
+    "supertest": "^4.0.2"
+  },
+  "engines": {
+    "node": "^4.2.2",
+    "npm": "^3.6.0"
+  }
+}
